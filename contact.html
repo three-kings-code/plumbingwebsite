@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Your Plumbing Co</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Your Plumbing Co</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="tel:+44XXXXXXXXXX" class="btn-phone">Call Now</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Contact Us</h2>
+    <p>Get in touch for a free quote or emergency callout.</p>
+
+    <div class="contact-info">
+      <p><strong>Phone:</strong> <a href="tel:+44XXXXXXXXXX">+44 XXXX XXX XXX</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/44XXXXXXXXXX?text=Hi%20I%27d%20like%20a%20quote" target="_blank">Message us on WhatsApp</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@yourdomain.co.uk">info@yourdomain.co.uk</a></p>
+    </div>
+
+    <h3>Send a Message</h3>
+    <form action="mailto:info@yourdomain.co.uk" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p class="form-note">This form opens your email client. We will add a proper form backend later.</p>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Your Plumbing Co. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
